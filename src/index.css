@@ -86,3 +86,5 @@ audio {
   width: 200px;
   height: 25px;
 }
+
+#map { height: 180px; }
