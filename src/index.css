@@ -41,6 +41,10 @@ main{
   width: 100%;
 }
 
+a{
+  color: aliceblue;
+}
+
 .birds{
   margin-left: 10px;
   display: flex;
@@ -49,4 +53,10 @@ main{
   border-style:double;
   width: 25%;
 
+}
+
+audio {
+  filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+  width: 200px;
+  height: 25px;
 }

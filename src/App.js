@@ -1,17 +1,11 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import Main from './components/Main';
-import Footer from './components/Footer';
-import Bird from './components/Bird';
-
+import './index.css';
+import BirdContainer from './containers/BirdContainer';
 
 function App() {
   return (
     <>
-      <Navbar/>
-      <Main/>
-      <Bird/>
-      <Footer/>
+    <BirdContainer/>
     </>
   );
 }
