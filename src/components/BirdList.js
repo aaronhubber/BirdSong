@@ -1,17 +1,19 @@
 import React from "react";
 import Bird from "./Bird";
 
-const BirdList = ({birds, onMunroClick}) => {
+
+const BirdList = ({birds, onFavouriteClick}) => {
 
     const BirdItems = birds.map((bird, index) => {
-      return <Bird bird={bird} key={index} onMunroClick={onMunroClick} />
+      return <Bird bird={bird} key={index} onFavouriteClick={onFavouriteClick} />
 
     })
 
   return (
     <div>
-    <ul>
+    <ul className="birdlist">
       {BirdItems}
+      {}
     </ul>
   </div>
   )
