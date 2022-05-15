@@ -8,12 +8,13 @@ const FavouriteBirds = ({favouriteBirds}) => {
     const bestBirds = favouriteBirds.map((bird) => {
         return <FaveBird bird = {bird}/>
     })
-
     return (
         <>
         <div>
-        <h3>Favourite Bird Calls</h3>
+        <h3>Favourite Bird Calls:</h3>
         {bestBirds}
+        <div id="map"></div>
+        
         </div>
         </>
     )
